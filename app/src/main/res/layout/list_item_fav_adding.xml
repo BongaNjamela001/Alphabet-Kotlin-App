@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="clickListener"
+            type="android.view.View.OnClickListener"/>
+        <variable
+            name="viewModel"
+            type="com.csc2002s.assgnmnts.apps.alphabetapplication.viewmodels.AlphabetAndFavAddingViewModel"/>
+    </data>
+
+    <com.csc2002s.assgnmnts.apps.alphabetapplication.views.MaskedCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/card_side_margin"
+        android:layout_marginEnd="@dimen/card_side_margin"
+        android:layout_marginBottom="@dimen/card_bottom_margin"
+        android:onClick="@{clickListener}"
+        app:cardElevation="@dimen/card_elevation"
+        app:cardPreventCornerOverlap="false"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.AlphabetApplication.Card">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/alphabet_item_image_height"
+                android:contentDescription="@string/abc_alphabet_item_image"
+                android:scaleType="centerCrop"
+                app:imageFromUrl="@{viewModel.imageUrl}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+
+            <TextView
+                android:id="@+id/alphabet_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:text="@{viewModel.alphabetName}"
+                android:gravity="center_horizontal"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/imageView"/>
+
+            <TextView
+                android:id="@+id/alphabet_date_header"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:text="@string/alphabet_date_header"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:textAppearance="?attr/textAppearanceSubtitle2"
+                android:textColor="?attr/colorAccent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/alphabet_name"/>
+
+            <TextView
+                android:id="@+id/alphabet_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="@{viewModel.alphabetDateString}"
+                android:gravity="center_horizontal"
+                android:textAppearance="?attr/textAppearanceSubtitle2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/alphabet_date_header"/>
+
+            <TextView
+                android:id="@+id/added_date_header"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:text="@string/added_date_header"
+                android:textStyle="bold"
+                android:textAppearance="?attr/textAppearanceSubtitle2"
+                android:textColor="?attr/colorAccent"
+                android:gravity="center_horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/alphabet_date"/>
+
+            <TextView
+                android:id="@+id/add_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:text="@{viewModel.addingDateString}"
+                android:gravity="center_horizontal"
+                android:textAppearance="?attr/textAppearanceSubtitle2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/added_date_header" />
+
+            <TextView
+                android:id="@+id/add_interval"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="@dimen/margin_normal"
+                android:text="@{@plurals/adding_next(viewModel.addingInterval, viewModel.addingInterval)}"
+                android:gravity="center_horizontal"
+                android:textAppearance="?attr/textAppearanceSubtitle2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/add_date"
+                app:layout_constraintBottom_toBottomOf="parent"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.csc2002s.assgnmnts.apps.alphabetapplication.views.MaskedCardView>
+
+</layout>

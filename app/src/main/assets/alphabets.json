@@ -1,0 +1,209 @@
+[
+  {
+    "alphabetId": "Aa",
+    "alphabetName": "Aa",
+    "description": "Apple<br><br>Advert<br><br>Aeroplane<br><br>Ambulance<br><br>Ant<br><br>Aardvark<br><br>Antelope<br><br>Amoeba<br><br>Acumen<br><br>Addition<br><br>Annotate<br><br>Analog<br><br>Amazing<br><br>Apartment",
+    "practiceNumber": 3,
+    "addingInterval": 30,
+    "imageUrl": "https://i.postimg.cc/WtnwgVTx/slide01.gif"  },
+  {
+    "alphabetId": "Bb",
+    "alphabetName": "Bb",
+    "description": "Ball<br><br>Brain<br><br>Baby<br><br>Before<br><br>Because<br><br>Bunny<br><br>Brick<br><br>Battery<br><br>Basic<br><br>Burundi<br><br>Bhutan<br><br>Break<br><br>Brake<br><br>Broke<br><br>Bat<br><br>Bite<br><br>Boot<br><br>Bedazzle<br><br>Bunk<br><br>Bemused",
+    "practiceNumber": 2,
+    "addingInterval": 7,
+    "imageUrl": "https://i.postimg.cc/D8wdcNz0/slide02.gif"
+  },
+  {
+    "alphabetId": "Cc",
+    "alphabetName": "Cc",
+    "description": "Cat<br><br>Caterpillar<br><br>Cathode<br><br>Catherine<br><br>Camp<br><br>Cheetah<br><br>Champaign<br><br>Chimera<br><br>Crimson<br><br>Creep<br><br>Cope<br><br>Current<br><br>Computer<br><br>Cry<br><br>Cringe<br><br>Cream<br><br>Crazy<br><br>Cheap<br><br>Chiral<br><br>Chiropractor",
+    "practiceNumber": 2,
+    "addingInterval": 2,
+    "imageUrl": "https://i.postimg.cc/mtp3pScw/slide03.gif"
+  },
+  {
+    "alphabetId": "Dd",
+    "alphabetName": "Dd",
+    "description": "Dog<br><br>Depend<br><br>Divide<br><br>Desk<br><br>Donkey<br><br>Dingo<br><br>Dilapidated<br><br>Discrepancy<br><br>Describe<br><br>Demise<br><br>Demi<br><br>Draw<br><br>Desire<br><br>Dream<br><br>Drip<br><br>Drag<br><br>Dough<br><br>Donut<br><br>Direct",
+    "practiceNumber": 9,
+    "addingInterval": 4,
+    "imageUrl": "https://i.postimg.cc/JH4JPyMv/slide04.gif"
+  },
+  {
+    "alphabetId": "Ee",
+    "alphabetName": "Ee",
+    "description": "Elephant<br><br>Epoch<br><br>Ephraim<br><br>Ember<br><br>Elongate<br><br>Enzyme<br><br>Expire<br><br>Enhance<br><br>Electricity<br><br>Emulate<br><br>Emigrate<br><br>Estonia<br><br>Europe<br><br>Euphemism<br><br>Engage<br><br>Emirate<br><br>Empire",
+    "practiceNumber": 9,
+    "addingInterval": 3,
+    "imageUrl": "https://i.postimg.cc/yg7S8Jgx/slide05.gif"
+  },
+  {
+    "alphabetId": "Ff",
+    "alphabetName": "Ff",
+    "description": "Fox<br><br>Fig<br><br>Fib<br><br>Feeble<br><br>Freedom<br><br>Ferret<br><br>Falcon<br><br>From<br><br>France<br><br>Fall<br><br>Fetch<br><br>Freaky<br><br>Friday<br><br>Fumble<br><br>Fudge<br><br>Frappe<br><br>Forever<br><br>Fear<br><br>Fraternity",
+    "practiceNumber": 3,
+    "addingInterval": 30,
+    "imageUrl": "https://i.postimg.cc/rKsx4tht/slide06.gif"
+  },
+  {
+    "alphabetId": "Gg",
+    "alphabetName": "Gg",
+    "description": "Gorilla<br><br>Ghost<br><br>Gigabyte<br><br>Geese<br><br>Goat<br><br>Goose<br><br>Grape<br><br>Glass<br><br>Glacier<br><br>Gym<br><br>Green<br><br>Grass<br><br>Gobble<br><br>General<br><br>Give<br><br>Gem<br><br>Gone<br><br>Gum<br><br>Game<br><br>Great",
+    "practiceNumber": 4,
+    "addingInterval": 3,
+    "imageUrl": "https://i.postimg.cc/hznVQywS/slide07.gif"
+  },
+  {
+    "alphabetId": "Hh",
+    "alphabetName": "Hh",
+    "description": "Hamburger<br><br>Hunt<br><br>House<br><br>Home<br><br>Has<br><br>Have<br><br>Hopeful<br><br>Heel<br><br>Hen<br><br>Hem<br><br>Hip<br><br>Heat<br><br>Hump<br><br>Hunger<br><br>Hamper<br><br>Heal<br><br>Habitat<br><br>Habitual<br><br>Habitue<br><br>Haggard<br><br>Halcyon<br><br>Hale",
+    "practiceNumber": 9,
+    "addingInterval": 9,
+    "imageUrl": "https://i.postimg.cc/DJcLrQk1/slide08.gif"
+  },
+  {
+    "alphabetId": "Ii",
+    "alphabetName": "Ii",
+    "description": "Ice-cream<br><br>Insect<br><br>Itchy<br><br>Icicle<br><br>I'll<br><br>Iron<br><br>Island<br><br>Ivy<br><br>Iris<br><br>Identical<br><br>Idea<br><br>Indent<br><br>Irrigate",
+    "practiceNumber": 11,
+    "addingInterval": 7,
+    "imageUrl": "https://i.postimg.cc/ThCnhcc6/slide09.gif"
+  },
+  {
+    "alphabetId": "Jj",
+    "alphabetName": "Jj",
+    "description": "Jam<br><br>Jingle<br><br>Jail<br><br>Jacket<br><br>Jargon<br><br>Jealousy<br><br>Jaw<br><br>Jar<br><br>Jewelry<br><br>Jibe<br><br>Jelly<br><br>Job<br><br>Joint<br><br>Joke<br><br>Judge",
+    "practiceNumber": 9,
+    "addingInterval": 30,
+    "imageUrl": "https://i.postimg.cc/WDLkxYsM/slide10.gif"
+  },
+  {
+    "alphabetId": "Kk",
+    "alphabetName": "Kk",
+    "description": "Koala<br><br>Keyboard<br><br>Kitchen<br><br>Kayak<br><br>Knife<br><br>Knight<br><br>Ketchup<br><br>King<br><br>Kangaroo<br><br>Keep<br><br>Knack<br><br>Knead<br><br>Kit<br><br>Kimono<br><br>Kimberley",
+    "practiceNumber": 8,
+    "addingInterval": 3,
+    "imageUrl": "https://i.postimg.cc/zVQWFXM2/slide11.gif"
+  },
+  {
+    "alphabetId": "Ll",
+    "alphabetName": "Ll",
+    "description": "Ladybug<br><br>Ladder<br><br>Label<br><br>Lamb<br><br>Laugh<br><br>Leaf<br><br>Leg<br><br>Let<br><br>Like<br><br>Labor<br><br>Lake<br><br>Landfill<br><br>Lane<br><br>Language<br><br>Last<br><br>Lately<br><br>Latter<br><br>Lamp<br><br>Landlord",
+    "practiceNumber": 7,
+    "addingInterval": 3,
+    "imageUrl": "https://i.postimg.cc/YvmFnBBr/slide12.gif"
+  },
+  {
+    "alphabetId": "Mm",
+    "alphabetName": "Mm",
+    "description": "Mouse<br><br>Main<br><br>Monkey<br><br>Most<br><br>Make<br><br>Must<br><br>Moss<br><br>My<br><br>Market<br><br>Medical<br><br>Medicine<br><br>Magic<br><br>Magical<br><br>Meow<br><br>Milk<br><br>Mountain<br><br>March<br><br>Map<br><br>Milkshake",
+    "practiceNumber": 10,
+    "addingInterval": 1,
+    "imageUrl": "https://i.postimg.cc/p9fFvQd3/slide13.gif"
+  },
+  {
+    "alphabetId": "Nn",
+    "alphabetName": "Nn",
+    "description": "Night<br><br>Notebook<br><br>Never<br><br>New<br><br>Ninja<br><br>Now<br><br>Nurse<br><br>Newbord<br><br>Nerd<br><br>Nature<br><br>Nomad<br><br>Nightingale<br><br>Nose<br><br>Narcissist<br><br>Nascent<br><br>Nationalism<br><br>Native",
+    "practiceNumber": 4,
+    "addingInterval": 7,
+    "imageUrl": "https://i.postimg.cc/47wH7JV5/slide14.gif"
+  },
+  {
+    "alphabetId": "Oo",
+    "alphabetName": "Oo",
+    "description": "Octopus<br><br>Oasis<br><br>Obdurate<br><br>Obedient<br><br>Obeisance<br><br>Obfuscate<br><br>Orange<br><br>Oblique<br><br>Obdurate<br><br>Objection<br><br>Oath<br><br>O'clock<br><br>Once<br><br>Ointment<br><br>Owl<br><br>Ostrich<br><br>Orchid<br><br>Organ<br><br>Ocean<br><br>Oven",
+    "practiceNumber": 5,
+    "addingInterval": 3,
+    "imageUrl": "https://i.postimg.cc/4Hd7pr1T/slide15.gif"
+  },
+  {
+    "alphabetId": "Pp",
+    "alphabetName": "Pp",
+    "description": "Panda<br><br>Pack<br><br>Page<br><br>Pain<br><br>Pan<br><br>Pink<br><br>Pot<br><br>Puddle<br><br>Police<br><br>Pig<br><br>Purple<br><br>Puddle",
+    "practiceNumber": 8,
+    "addingInterval": 7,
+    "imageUrl": "https://i.postimg.cc/V5LCyCPH/slide16.gif"
+  },
+  {
+    "alphabetId": "Qq",
+    "alphabetName": "Qq",
+    "description": "Queen<br><br>Quiet<br><br>Quack<br><br>Quit<br><br>Quilt<br><br>Quest<br><br>Quill<br><br>Quirk<br><br>Qualify<br><br>Quiz<br><br>Question<br><br>Queue<br><br>Quarter",
+    "practiceNumber": 10,
+    "addingInterval": 21,
+    "imageUrl": "https://i.postimg.cc/xcXN8VCv/slide17.gif"
+  },
+  {
+    "alphabetId": "Rr",
+    "alphabetName": "Rr",
+    "description": "Rabbit<br><br>Rake<br><br>Ram<br><br>Red<br><br>Ring<br><br>Race<br><br>Racial<br><br>Radiation<br><br>Radio<br><br>Rage<br><br>Remember<br><br>Rain<br><br>Raise<br><br>Range<br><br>Rank<br><br>Rapid<br><br>Rather",
+    "practiceNumber": 7,
+    "addingInterval": 22,
+    "imageUrl": "https://i.postimg.cc/0rWJ9y85/slide18.gif"
+  },
+  {
+    "alphabetId": "Ss",
+    "alphabetName": "Ss",
+    "description": "Snail<br><br>Sacrifice<br><br>Sad<br><br>Safety<br><br>Salesman<br><br>Sample<br><br>Sarcastic<br><br>Sauce<br><br>Save<br><br>Savings<br><br>Scale<br><br>Say<br><br>Sardonic<br><br>Sacrosanct<br><br>Salubrious<br><br>Saturate<br><br>Semiconductor",
+    "practiceNumber": 22,
+    "addingInterval": 8,
+    "imageUrl": "https://i.postimg.cc/Cz9BfrBW/slide19.gif"
+  },
+  {
+    "alphabetId": "Tt",
+    "alphabetName": "Tt",
+    "description": "Turtle<br><br>Tacit<br><br>Taciturn<br><br>Taint<br><br>Talisman<br><br>Tangible<br><br>Teacher<br><br>Temple<br><br>Tardy<br><br>Together<br><br>Through<br><br>Think<br><br>Tank<br><br>Terrain<br><br>Tailor<br><br>Test<br><br>Time<br><br>Table<br><br>Temporal<br><br>Terrestrial",
+    "practiceNumber": 5,
+    "addingInterval": 19,
+    "imageUrl": "https://i.postimg.cc/f3NV83vC/slide20.gif"
+  },
+  {
+    "alphabetId": "Uu",
+    "alphabetName": "Uu",
+    "description": "Umbrella<br><br>Unable<br><br>Under<br><br>Undergo<br><br>Unable<br><br>Urge<br><br>Unit<br><br>Use<br><br>Unhappy<br><br>Universal<br><br>University<br><br>Uniform<br><br>Understanding<br><br>Undergraduate<br><br>Umpire",
+    "practiceNumber": 10,
+    "addingInterval": 17,
+    "imageUrl": "https://i.postimg.cc/CRDZCCbd/slide21.gif"
+  },
+  {
+    "alphabetId": "Vv",
+    "alphabetName": "Vv",
+    "description": "Vase<br><br>Van<br><br>Vet<br><br>Victory<br><br>Violet<br><br>Volcano<br><br>Vegetable<br><br>Velvet<br><br>Vulture<br><br>Vest<br><br>Viper<br><br>Visitor<br><br>Vein<br><br>Vanilla<br><br>Violin<br><br>Visit<br><br>Very<br><br>Vacuum<br><br>Vote",
+    "practiceNumber": 13,
+    "addingInterval": 9,
+    "imageUrl": "https://i.postimg.cc/8Fmj91KS/slide22.gif"
+  },
+  {
+    "alphabetId": "Ww",
+    "alphabetName": "Ww",
+    "description": "Whale<br><br>Water<br><br>Wage<br><br>Waist<br><br>Waiter<br><br>Waitress<br><br>Waive<br><br>Walk<br><br>Walrus<br><br>Watermelon<br><br>White<br><br>Wiggle<br><br>When<br><br>Way<br><br>Wax<br><br>Wheel<br><br>Winter<br><br>Wood",
+    "practiceNumber": 9,
+    "addingInterval": 5,
+    "imageUrl": "https://i.postimg.cc/5YPj9sWK/slide23.gif"
+  },
+  {
+    "alphabetId": "Xx",
+    "alphabetName": "Xx",
+    "description": "Xylophone<br><br>Xenon<br><br>Xylem<br><br>Xanthippe<br><br>Xanthosis<br><br>Xerophagy",
+    "practiceNumber": 7,
+    "addingInterval": 6,
+    "imageUrl": "https://i.postimg.cc/fkLJqQYG/slide24.gif"
+  },
+  {
+    "alphabetId": "Yy",
+    "alphabetName": "Yy",
+    "description": "Yield<br><br>Yellow<br><br>Yarn<br><br>Yahoo<br><br>Yesterday<br><br>Yell<br><br>Yum<br><br>Yardstick<br><br>Yacht<br><br>Yolk<br><br>Yelp<br><br>Yawn<br><br>Yo-Yo<br><br>Yemen<br><br>Yes<br><br>Yuletide<br><br>Yoghurt<br><br>Youth<br><br>Yesterday",
+    "practiceNumber": 5,
+    "addingInterval": 27,
+    "imageUrl": "https://i.postimg.cc/5Y96MZTF/slide25.gif"
+  },
+  {
+    "alphabetId": "Zz",
+    "alphabetName": "Zz",
+    "description": "Zipper<br><br>Zebra<br><br>Zany<br><br>Zephyr<br><br>Zydeco<br><br>Zeppelin<br><br>ZigZag<br><br>Zilch<br><br>Zonked<br><br>Zealot<br><br>Zookeeper",
+    "practiceNumber": 8,
+    "addingInterval": 25,
+    "imageUrl": "https://i.postimg.cc/Wqhzd02N/slide26.gif"
+  }
+]

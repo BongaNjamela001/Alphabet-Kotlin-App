@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/view_pager_fragment">
+
+    <fragment
+        android:id="@+id/view_pager_fragment"
+        android:name="com.csc2002s.assgnmnts.apps.alphabetapplication.HomeViewPagerFragment"
+        tools:layout="@layout/fragment_view_pager">
+
+        <action
+                android:id="@+id/action_view_pager_fragment_to_alphabet_detail_fragment"
+                app:destination="@id/alphabet_detail_fragment"
+                app:enterAnim="@anim/slide_in_right"
+                app:exitAnim="@anim/slide_out_left"
+                app:popEnterAnim="@anim/slide_in_left"
+                app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/alphabet_detail_fragment"
+        android:name="com.csc2002s.assgnmnts.apps.alphabetapplication.AlphabetDetailFragment"
+        android:label="@string/alphabet_details_title"
+        tools:layout="@layout/item_alphabet_description">
+
+        <action
+            android:id="@+id/action_alphabet_detail_fragment_to_collection_fragment"
+            app:destination="@id/collection_fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <argument
+            android:name="alphabetId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_alphabet_detail_fragment_self"
+            app:destination="@id/alphabet_detail_fragment" />
+        <action
+            android:id="@+id/action_alphabet_detail_fragment_to_view_pager_fragment"
+            app:destination="@id/view_pager_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/collection_fragment"
+        android:name="com.csc2002s.assgnmnts.apps.alphabetapplication.CollectionFragment"
+        android:label="@string/alphabet_details_title"
+        tools:layout="@layout/fragment_collection">
+        <argument
+            android:name="alphabetName"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_collection_fragment_to_alphabet_detail_fragment"
+            app:destination="@id/alphabet_detail_fragment" />
+    </fragment>
+
+</navigation>
