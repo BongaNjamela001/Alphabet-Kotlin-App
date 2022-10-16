@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Alphabet</string>
+
+    <!-- Translatable resources -->
+    <string name="menu_filter_by_practice_zone" translation_description="Filtering alphabets by favourites list">Filter by word count</string>
+    <string name="fav_title" translation_description="Title for the 'Favourite ALphabets' screen where the user can see the list of alphabets that have been added to their favourites.">Favourites</string>
+    <string name="alphabet_list_title" translation_description="Title for the alphabet list screen where the user can see a list of alphabets available to add to their list.">Overview list</string>
+    <string name="available" translation_description="Text for the header of the alphabet list page indicating the available alphabets for users to choose from.">Available Alphabets</string>
+    <string name="alphabet_details_title" translation_description="Title for the alphabet details screen where the user can see the details for a specific alphabet.">Alphabet details</string>
+    <string name="add_alphabet" translation_description="Button text that prompts user to navigate to the Alphabet List to add alphabets to their empty favourites.">Add Alphabet</string>
+    <string name="next_alphabet" translation_description="Button text that prompts user to navigate to the next alphabet.">Next Alphabet</string>
+    <string name="prev_alphabet" translation_description="Button text that prompts user to navigate to the previous alphabet.">Prev Alphabet</string>
+    <string name="home_alphabet" translation_description="Button text that prompts user to navigate to the home page.">Home Tab</string>
+    <string name="first_alphabet" translation_description="Button text that prompts user to navigate to the first alphabet, Aa.">Skip to A</string>
+    <string name="last_alphabet" translation_description="Button text that prompts user to navigate to the las alphabet, Zz.">Skip to Z</string>
+    <string name="added_fav_to_list" translation_description="Confirmation text that is shown when a user adds an alphabet to their empty favourites.">Added alphabet to favourites</string>
+    <string name="fav_empty" translation_description="Text that is shown on the 'Favourites' screen when no alphabets have been added to the user's favourites">You have no favourites</string>
+    <string name="alphabet_date_header" translation_description="Text that is shown on each alphabet on the 'Favourites' screen which says the word Added to show date of adding below">Added</string>
+    <string name="added_date_header" translation_description="Text that is shown on each alphabet on the 'Favourites' screen which says the word Last Added to show date of last adding below">Last Added New Word</string>
+    <string name="menu_item_share_alphabet" translation_description="The label for the Share menu item">Share</string>
+    <string name="share_text_alphabet" translation_description="The default messaged used when sharing a alphabet on SNS, etc.">Check out the %s alphabet in the Android Alphabet app</string>
+    <string name="collection_title" translation_description="Title for the photo collection screen">Images by Unsplash</string>
+
+    <!-- String plurals and their related prefix / suffix strings -->
+    <string name="adding_needs_prefix" translation_description="Prefix for the text describing how often a new word must be found. Used in combination with adding_needs_suffix.">New word added</string>
+    <plurals name="adding_needs_suffix">
+        <item quantity="one" translation_description="Suffix for the text describing how often an alphabet should be added, singular. Used in combination with adding_needs_prefix: 'Adding needs: every day'.">every day</item>
+        <item quantity="other" translation_description="Suffix for the text describing how often a alphabet should be added, plural. Used in combination with adding_needs_prefix: 'Adding needs: every 8 days'.">every 7 days</item>
+    </plurals>
+
+    <plurals name="adding_next">
+        <item quantity="one" translation_description="Text indicating when the next be word should be practiced, singular. Used in conjunction with last added date. 'September 22, 2022 - practice tomorrow.'.">add tomorrow.</item>
+        <item quantity="other" translation_description="Text indicating when the the plant should next be watered, plural. Used in conjunction with last watered date. 'September 22, 2022 - practice in 8 days.'.">add in 3 days.</item>
+    </plurals>
+
+    <!-- Accessibility -->
+    <string name="abc_alphabet_item_image" translation_description="Accessibility text for each of the alphabet images shown in the 'favourites' and 'Alphabet list' screens.">Picture of alphabet</string>
+    <string name="abc_back" translatable="false">Navigate up</string>
+    <string name="collection_content_description" translation_description="Content description for the clickable image to navigate to the collection screen">Navigate to collection screen</string>
+    <string name="alphabet_detail_image_content_description" translation_description="Content description for the header / hero image that is show at the top of the alphabet detail screen.">Image of alphabet</string>
+    
+    <string name="next">Next</string>
+    <string name="previous">Prev</string>
+    <string name="start">Start</string>
+    <string name="letterA">Aa</string>
+    <string name="letterB">Bb</string>
+    <string name="letterC">Cc</string>
+    <string name="letterD">Dd</string>
+    <string name="letterE">Ee</string>
+    <string name="letterF">Ff</string>
+    <string name="letterG">Gg</string>
+    <string name="letterH">Hh</string>
+    <string name="letterI">Ii</string>
+    <string name="letterJ">Jj</string>
+    <string name="letterK">Kk</string>
+    <string name="letterL">Ll</string>
+    <string name="letterM">Mm</string>
+    <string name="letterN">Nn</string>
+    <string name="letterO">Oo</string>
+    <string name="letterP">Pp</string>
+    <string name="letterQ">Qq</string>
+    <string name="letterR">Rr</string>
+    <string name="letterS">Ss</string>
+    <string name="letterT">Tt</string>
+    <string name="letterU">Uu</string>
+    <string name="letterV">Vv</string>
+    <string name="letterW">Ww</string>
+    <string name="letterX">Xx</string>
+    <string name="letterY">Yy</string>
+    <string name="letterZ">Zz</string>
+
+    <!-- Strings used for alphabet details fragments text-->
+
+    <string name="letter00">Apple</string>
+    <string name="letter01">Ball</string>
+    <string name="letter02">Cat</string>
+    <string name="letter03">Dog</string>
+    <string name="letter04">Elephant</string>
+    <string name="letter05">Fox</string>
+    <string name="letter06">Gorilla</string>
+    <string name="letter07">Hamburger</string>
+    <string name="letter08">Ice-cream</string>
+    <string name="letter09">Jump</string>
+    <string name="letter10">Koala</string>
+    <string name="letter11">Ladybug</string>
+    <string name="letter12">Mouse</string>
+    <string name="letter13">Noon</string>
+    <string name="letter14">Octopus</string>
+    <string name="letter15">Panda</string>
+    <string name="letter16">Queen</string>
+    <string name="letter17">Rabbit</string>
+    <string name="letter18">Snail</string>
+    <string name="letter19">Turtle</string>
+    <string name="letter20">Umbrella</string>
+    <string name="letter21">Vase</string>
+    <string name="letter22">Whale</string>
+    <string name="letter23">Xylem</string>
+    <string name="letter24">Yellow</string>
+    <string name="letter25">Zipper</string>
+
+</resources>

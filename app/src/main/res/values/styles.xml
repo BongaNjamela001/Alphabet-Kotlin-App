@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AlphabetApplication" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
+    </style>
+
+    <style name="Theme.AlphabetApplication" parent="Base.Theme.AlphabetApplication"/>
+
+    <style name="Theme.AlphabetApplication.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.AlphabetApplication.FAB</item>
+    </style>
+
+    <style name="Theme.AlphabetApplication.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar"/>
+
+    <style name="TextAppearance.AlphabetApplication.Toolbar.Text" parent="TextAppearance.MaterialComponents.Headline5" >
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+</resources>
